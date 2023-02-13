@@ -1,3 +1,9 @@
+.load-model-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 button {
   padding: 10px 20px;
   border-radius: 5px;
