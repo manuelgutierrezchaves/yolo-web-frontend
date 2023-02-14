@@ -1,5 +1,16 @@
 .upload-image {
+  border: 1px solid black;
+  border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-  }
+  padding: 6px 12px;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  margin: 20px
+}
+
+input[type="file"] {
+  display: none;
+}

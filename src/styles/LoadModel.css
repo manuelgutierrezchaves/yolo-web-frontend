@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 button {
@@ -21,4 +22,9 @@ button:hover{
 
 .selected-button {
   background-color: greenyellow;
+  color: black;
+}
+
+.selected-button:hover {
+  background-color: rgb(212, 255, 148);
 }

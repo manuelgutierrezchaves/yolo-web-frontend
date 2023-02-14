@@ -37,9 +37,12 @@ function UploadImage ( {setNewImage, number} ) {
 
 
   return(
-    <div className="upload-image">
-      <input type="file" onChange={handleFileChange} />
-    </div>
+    <>
+      <label for="file-upload" className="upload-image">
+        Click here to upload image
+      </label>
+      <input id="file-upload" type="file" onChange={handleFileChange} />
+    </>
   )
 
 }
